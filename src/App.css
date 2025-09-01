@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at center, #080d11, #101820, #0f2027);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+/* wrapper for title + container */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* title */
+.page-wrapper h1 {
+  text-align: center;
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff, 0 0 16px rgba(0, 255, 255, 0.6);
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+}
+
+/* override bootstrap container */
+.container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+}
+
+/* card */
+.card.custom-card {
+  width: 400px;
+  background: rgba(15, 15, 15, 0.95) !important;
+  border: 1px solid #00ffff !important;
+  border-radius: 12px !important;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.4), 0 0 40px rgba(0, 255, 255, 0.2) inset !important;
+  padding: 25px 30px !important;
+  color: #fff !important;
+}
+
+/* labels */
+.form-label {
+  color: #00ffff !important;
+  font-weight: bold !important;
+}
+
+/* input fields */
+.form-control {
+  background: #111 !important;
+  border: 1px solid #00ffff !important;
+  color: #fff !important;
+  padding: 10px !important;
+  border-radius: 8px !important;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3) inset !important;
+  margin-bottom: 15px !important;
+}
+
+.form-control:focus {
+  outline: none !important;
+  box-shadow: 0 0 12px #00ffff !important;
+}
+
+/* button */
+.btn-primary {
+  background: transparent !important;
+  border: 1px solid #00ffff !important;
+  color: #00ffff !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  width: 100% !important;
+  padding: 12px !important;
+  font-size: 1rem !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-primary:hover {
+  background: #00ffff !important;
+  color: #111 !important;
+  box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff !important;
+}
+
+/* response box */
+.alert-info {
+  margin-top: 15px !important;
+  background: rgba(0, 255, 255, 0.08) !important;
+  border: 1px solid #00ffff !important;
+  color: #00ffff !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  font-size: 0.95rem !important;
+  padding: 10px !important;
+  border-radius: 8px !important;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3) inset !important;
+}
+
+/* placeholder text */
+.form-control::placeholder {
+  color: #b0b0b0 !important;
+  opacity: 0.7;
+}
+
